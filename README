@@ -1,0 +1,12 @@
+This is a simple little utility to make the filenames of mp3 files into a consistant format, as the publisher will adopt their own naming convention e.g.
+
+<artist> <album> <track number> <track name>.<extension>
+<artist>-<track number>-<track name>.<extension>
+<artist> <album> <track number>-<track name>.<extension>
+...
+
+This plays merry hell with my Android music player app, so in order to learn a little about both node.js and Javascript I thought it might be a nice idea to do this as a node.js script. 
+
+Warning: smelly code, work in progress and noobish mistakes probably all present. Do not use unless you have backed up your files first blah blah. 
+
+Released under the Apache Public License v2.0 here: http://www.apache.org/licenses/LICENSE-2.0.html
