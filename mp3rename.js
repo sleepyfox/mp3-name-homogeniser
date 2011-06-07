@@ -15,8 +15,8 @@ var i=0,
 	regexpString;		
 		
 // Error processing on arguments
-if (process.argv.length != 4) {
-	console.log('Wrong number of arguments %d, was expecting 4', process.argv.length);
+if (process.argv.length < 3 || process.argv.length > 4) {
+	console.log('Wrong number of arguments %d, was expecting 3 or 4', process.argv.length);
 	console.log('Usage: \n    node mp3rename.js path-to-mp3-folder regexp-string');
 	return; 
 }

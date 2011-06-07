@@ -9,4 +9,6 @@ This plays merry hell with my Android music player app, so in order to learn a l
 
 Warning: smelly code, work in progress and noobish mistakes probably all present. Do not use unless you have backed up your files first blah blah. 
 
+There's a test script called 'test-setup.sh' that will create a folder and some fake mp3 files, a test runner script 'test-run.sh' that calls mp3rename.js with appropriate arguments, and a test cleanup script 'test-cleanup.sh' that removes the test mp3 directory and all of its contents. All scripts expect to be run from the same directory. 
+
 Released under the Apache Public License v2.0 here: http://www.apache.org/licenses/LICENSE-2.0.html
