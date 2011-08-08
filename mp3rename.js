@@ -1,6 +1,8 @@
 // requires
 var fs = require('fs'),
-	path = require('path');
+	path = require('path'),
+	vows = require('vows'),
+	assert = require('assert');
 
 // declarations
 var i=0, 
